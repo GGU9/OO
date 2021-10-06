@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OO</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+</head>
+<body>
+
+<!-- wrap 시작 -->
+<img src="./images/background_img.png" style="position: absolute; top: 0; left: 0; width: 1903px; height: auto; z-index: -50;">
+<div id="wrap">
+    <header id="header">
+        <div class="header_inner_box">
+            <div class="logo">
+                <a href="index.html"><img src="./images/logo.png">
+                    <h1>On place,<br>Open own art</h1></a>
+            </div>
+                <nav>
+                    <ul>
+                        <li><a href="marketplace.html">Marketplace</a></li>
+                        <li><a href="exhidition.html">Exhibition</a></li>
+                        <a style="margin: 0px;" href="profile_collecter.html"><li style="float: right;"><img src="./images/user2.png" style="padding-top: 22px;"></li></a>
+                        <li style="float: right;"><img src="./images/message.png" style="padding-top: 32px"></li>
+                        <li style="float: right;"><img src="./images/icon_bell.png" style="padding-top: 30px;"></li>
+                        <li style="text-decoration: underline; float: right;"><a href="#">KR</a></li>
+                        <li style="float: right;"><input type="search" placeholder=" search" class="nav_btn"></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+    <!-- container 시작 -->
+    <div id="container" class="main">
+        <div id="main">
+            <div class="main_menu">
+                <button class="choice" >Home</button>
+                <button class="no_choice" onclick="location.href='feed.html'">Feed</button>
+            </div>
+            <div class="part1">
+                <div>
+                    <div class="part1_L">
+                        <h1>On place,<br>Open Own ART</h1>
+                        <p class="main_ment">서로가 이어지는 가상의 공간에서 나만의 세계를 펼쳐보세요.</p>
+                        <img src="./images/main_btn1.png" onclick="location.href='about.html'">
+                    </div>
+                    <div class="back">
+                        <div class="main_back_img">
+                            <img src="./images/main_back_sun1.png" style="position: absolute; top: 180px; left: 1000px;">
+                        </div>
+
+                        <div class="main_back_img">
+                            <img src="./images/main_back_na.png" style="position: absolute; top: 180px; left: 900px;">
+                        </div>
+
+                        <div class="main_back_img">
+                            <img src="./images/main_back_mibb.png" style="position: absolute; top: 180px; left: 900px;">
+                        </div>
+                        
+                        <div class="main_back_img">
+                            <img src="./images/main_back.png" style="z-index: 1; position: absolute; left: 1000px; width: 900px; height: auto;">
+                            <img class="gal" src="./images/main_gal.gif">
+                        </div>
+
+                        <div class="main_back_img">
+                            <img  src="./images/main_back.png" style="z-index: 1; position: relative; left: 900px; top: 100px; width: 1200px; height: auto;">
+                            <img class="gal2" src="./images/main_gal2.gif">
+                        </div>
+
+                    </div>
+                    <div class="slide">
+                        <div class="slide1">
+                            <!-- <img class="main_back_img" src="./images/main_back_sun1.png"> -->
+                            <img src="./images/main_sun1.png">
+                            <div>
+                                <ul>
+                                    <li class="main_user_profile">
+                                        <img src="./images/main_profile_sun.png">
+                                        <p>@keemguro</p>
+                                    </li>
+                                    <li><h2>Sundew_<br>Edition of 1</h2></li>
+                                    <li class="price"><p>0.1 Eth<br><span class="won">376,500 KRW</span></p></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="slide1">
+                            <!-- <img class="main_back_img" src="./images/main_back_na.png"> -->
+                            <img src="./images/main_na.png" class="main_img_na">
+                            <div>
+                                <ul>
+                                    <li class="main_user_profile">
+                                        <img src="./images/profile_user8.png" class="user">
+                                        <p>@sangho_na</p>
+                                    </li>
+                                    <li style="width: 220px;"><h2>Universe dots</h2></li>
+                                    <li class="price"><p>0.1 Eth<br><span class="won">376,500 KRW</span></p></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="slide1">
+                            <!-- <img class="main_back_img" src="./images/main_back_mibb.png"> -->
+                            <img src="./images/main_mibb.png" class="main_img_mibb">
+                            <div>
+                                <ul>
+                                    <li class="main_user_profile short">
+                                        <img src="./images/seller4.png" class="user">
+                                        <p>@mibb_boo</p>
+                                    </li>
+                                    <li class="short"><h2 class="kr">뭉기적</h2></li>
+                                    <li class="price short"><p>0.1 Eth<br><span class="won">376,500 KRW</span></p></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="slide1">
+                            <!-- <img class="main_back_img gal" src="./images/main_gal.gif">
+                            <img  src="./images/main_back.png" class="main_back_img" style="z-index: -30; left: -800px;"> -->
+                            <img src="./images/main_gal.gif" class="main_img_gal">
+                            <div>
+                                <ul>
+                                    <li class="main_user_profile">
+                                        <img src="./images/seller3.png" class="user">
+                                        <p>@gamulgamulchii</p>
+                                    </li>
+                                    <li ><h2 class="kr">대구리의 과제</h2></li>
+                                    <li class="price"><p>0.1 Eth<br><span class="won">376,500 KRW</span></p></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="slide1">
+                            <!-- <img class="main_back_img gal" src="./images/main_gal2.gif">
+                            <img  src="./images/main_back.png" class="main_back_img" style="z-index: -30; left: -700px;"> -->
+                            <img src="./images/main_gal2.gif" class="main_img_gal2">
+                            <div>
+                                <ul>
+                                    <li class="main_user_profile">
+                                        <img src="./images/seller3.png" class="user">
+                                        <p>@gamulgamulchii</p>
+                                    </li>
+                                    <li style="width: 220px;"><h2>Cake therapy</h2></li>
+                                    <li class="price"><p>0.1 Eth<br><span class="won">376,500 KRW</span></p></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="part2">
+                <div class="part2_title">
+                    <h1>Popular Exhibitions</h1>
+                    <img src="./images/main_btn2.png" onclick="location.href='exhidition.html'">
+                </div>
+                <div class="main_exhibition_box">
+                    <div class="main_exhibition exhi1">
+                        <img src="./images/main_exhibition1.png">
+                        <h2>New 2021 Graduation Exhibition</h2>
+                        <p>작품 5 · 아티스트 4</p>
+                    </div>
+                    <div class="main_exhibition exhi2">
+                        <img src="./images/main_exhibition2.png">
+                        <h2>Another World</h2>
+                        <p>작품 4 · 아티스트 3</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="part3">
+                <div class="part2_title">
+                    <img src="./images/main_btn2.png" onclick="location.href='marketplace.html'">
+                </div>
+                <img class="part3_title" src="./images/main_title3.png">
+                <div class="main_artwork_group">
+                    <div class="market_artwork">
+                        <a href="art_sun.html"><img src="./images/sun2.png" class="artwork_img">
+                        <p class="price_e"><span class="price_red">0.1 Eth</span><br>Sundew_Edition of 2</p>
+                        <p class="max_price">최고 입찰가</p></a>
+                        <hr>
+                        <img src="./images/user4.png" class="market_user">
+                        <p class="user_name">@keemguro</p>
+                    </div>
+                    <div class="market_artwork">
+                        <a href="art.html"><img src="./images/mibb4.png" class="artwork_img">
+                        <p class="price_k"><span class="price_red">0.1 Eth</span><br>추억은 사진을 남긴다</p>
+                        <p class="max_price">최고 입찰가</p></a>
+                        <hr>
+                        <img src="./images/user3.png" class="market_user">
+                        <p class="user_name">@mibb_boo</p>
+                    </div>
+                    <div class="market_artwork">
+                        <a href="art.html"><img src="./images/gal3.png" class="artwork_img">
+                        <p class="price_k"><span class="price_red">0.1 Eth</span><br>유령이의 초대</p>
+                        <p class="max_price">최고 입찰가</p></a>
+                        <hr>
+                        <img src="./images/user5.png" class="market_user">
+                        <p class="user_name">@gamulgamulchii</p>
+                    </div>
+                </div>
+            </div>
+            <div class="part4">
+                <p class="part4_title">Top Sellers</p>
+                <div class="seller_group">
+                    <div class="seller">
+                        <p class="num">#1</p>
+                        <img src="./images/seller1.png">
+                        <p class="seller_name">keemguro<br><span class="seller_id">@keemguro</span></p>
+                        <p class="sell">10.0055 ETH<br><span class="sell_price">37,430,576 KRW</span></p>
+                    </div>
+                    <div class="seller">
+                        <p class="num">#2</p>
+                        <img src="./images/seller2.png">
+                        <p class="seller_name">kozy at Work<br><span class="seller_id">@kozyroom</span></p>
+                        <p class="sell">10.0055 ETH<br><span class="sell_price">37,430,576 KRW</span></p>
+                    </div>
+                    <div class="seller">
+                        <p class="num">#3</p>
+                        <img src="./images/seller3.png">
+                        <p class="seller_name kr">가물가물치<br><span class="seller_id eng">@gamulgamulchii</span></p>
+                        <p class="sell">10.0055 ETH<br><span class="sell_price">37,430,576 KRW</span></p>
+                    </div>
+                    <div class="seller">
+                        <p class="num">#4</p>
+                        <img src="./images/seller4.png">
+                        <p class="seller_name kr">밉뿌<br><span class="seller_id eng">@mibb_boo</span></p>
+                        <p class="sell">10.0055 ETH<br><span class="sell_price">37,430,576 KRW</span></p>
+                    </div>
+                    <div class="seller">
+                        <p class="num">#5</p>
+                        <img src="./images/seller5.png">
+                        <p class="seller_name">two<br><span class="seller_id">@eo0_5</span></p>
+                        <p class="sell">10.0055 ETH<br><span class="sell_price">37,430,576 KRW</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- container 끝 -->
+    <footer id="footer" style="background-color: rgba(0, 0, 0, 0); margin-top: -165px;">
+        <div style="width: 1720px; margin-left: 80px;">
+            <img src="./images/footer_img1.png" style="float: left; padding: 45px 0px;">
+            <img src="./images/footer_img2.png" style="float: right; padding: 60px 0px;">
+        </div>
+    </footer>
+</div>
+<!-- wrap 끝 -->
+<!-- <script src="./js/main.js"></script> -->
+<script>
+    const SHOWING_CLASS = "showing";
+    const firstSlide = document.querySelector(".slide1:first-child");
+    firstSlide.classList.add(SHOWING_CLASS);
+
+    function slide(){
+        const currentSlide = document.querySelector(`.${SHOWING_CLASS}`);
+        if (currentSlide) {
+            currentSlide.classList.remove(SHOWING_CLASS);
+            const nextSlide = currentSlide.nextElementSibling;
+            if(nextSlide){
+                nextSlide.classList.add(SHOWING_CLASS);
+            } else{
+                firstSlide.classList.add(SHOWING_CLASS)
+            }
+        } else{
+            firstSlide.classList.add(SHOWING_CLASS)
+        }
+    }
+    slide();
+    setInterval(slide, 4000);
+
+    const SHOWING_BACK_CLASS = "showing_back";
+    const firstBack = document.querySelector(".main_back_img:first-child");
+    firstBack.classList.add(SHOWING_BACK_CLASS);
+
+    function back_img(){
+        const currentBack = document.querySelector(`.${SHOWING_BACK_CLASS}`);
+        if (currentBack) {
+            currentBack.classList.remove(SHOWING_BACK_CLASS);
+            const nextBack = currentBack.nextElementSibling;
+            if(nextBack){
+                nextBack.classList.add(SHOWING_BACK_CLASS);
+            } else{
+                firstBack.classList.add(SHOWING_BACK_CLASS)
+            }
+        } else{
+            firstBack.classList.add(SHOWING_BACK_CLASS)
+        }
+    }
+    back_img();
+    setInterval(back_img, 4000);
+</script>
+</body>
+</html>
